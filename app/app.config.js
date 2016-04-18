@@ -17,8 +17,8 @@ angular.module('app').config(function ($stateProvider, $urlRouterProvider) {
             .state('homepage', {
                 url: '/homepage',
                 templateUrl: 'homepage/homepage.html',
-                // controller: 'homepageCtrl',
-                // controllerAs: 'vmHomepage'
+                controller: 'homepageCtrl',
+                controllerAs: 'vmHomepage',
                 parent: 'navbar'
             })
 
