@@ -2,12 +2,12 @@ angular.module('app').config(function ($stateProvider, $urlRouterProvider) {
 
         $stateProvider
             .state('navbar', {
-                url: '',
+                url: '/',
                 templateUrl: 'navbar/navbar.html'
             })
             
             .state('contact', {
-                url: '/contact',
+                url: 'contact',
                 templateUrl: 'contact/contact.html',
                 controller: 'contactCtrl',
                 // controllerAs: 'vmContact'
@@ -15,7 +15,7 @@ angular.module('app').config(function ($stateProvider, $urlRouterProvider) {
             })
 
             .state('homepage', {
-                url: '/homepage',
+                url: 'homepage',
                 templateUrl: 'homepage/homepage.html',
                 controller: 'homepageCtrl',
                 controllerAs: 'vmHomepage',
@@ -23,7 +23,7 @@ angular.module('app').config(function ($stateProvider, $urlRouterProvider) {
             })
 
             .state('whatwedo', {
-                url: '/whatwedo',
+                url: 'whatwedo',
                 templateUrl: 'whatwedo/whatwedo.html',
                 // controller: 'whatwedoCtrl',
                 // controllerAs: 'vmWhatWeDo'
@@ -31,10 +31,18 @@ angular.module('app').config(function ($stateProvider, $urlRouterProvider) {
             })
 
             .state('whoweare', {
-                url: '/whoweare',
+                url: 'whoweare',
                 templateUrl: 'whoweare/whoweare.html',
                 // controller: 'whoweareCtrl',
                 // controllerAs: 'vmWhoWeAre'
+                parent: 'navbar'
+            })
+            
+            .state('admin', {
+                url: 'admin',
+                templateUrl: 'admin/admin.html',
+                controller: 'adminCtrl',
+                controllerAs: 'vmadmin',
                 parent: 'navbar'
             })
 
