@@ -9,26 +9,28 @@ html {
 }
 
 
-/*Global*/
-/*body {
-    margin: 0 auto;
-}*/
-
 /*Navbar*/
+
+
 /*nav-wrapper {
     
 }*/
 
+
 /*Homepage*/
-parallax-container {
+
+
+/*.parallax {
     width: 100%;
+    height: 600px;
     position: absolute;
     z-index: 1;
-}
+    
+}*/
 
 #whoarewe-block {
     width: 100%;
-    height: 400px;
+    height: 600px;
     background-color: #284F63;
     text-align: center;
     font-size: 30px;
@@ -62,8 +64,40 @@ parallax-container {
 
 #whoweare-title {
     color: white;
+    padding-top: 50px;
 }
 
-whoweare {
+#whoweare-body1 {
     color: white;
+    font-size: 25px;
+}
+
+#whoweare-body2 {
+    color: white;
+    font-size: 25px;
+}
+
+#whoweare-body3 {
+    color: white;
+    font-size: 25px;
+}
+
+#whatwedo-title {
+    text-align: center;
+}
+
+.whatwedo {
+    width: 100%;
+    height: 800px;
+    background-color: #284F63;
+    text-align: center;
+    padding: 50px;
+}
+
+i.icon-black {
+    color: #000000;
+}
+
+.icon-text {
+    font-weight: bold;
 }
