@@ -11,10 +11,41 @@ html {
 
 /*Navbar*/
 
+#header-container {
+    background-color: #284F63;
+    text-align: center;
+}
 
-/*nav-wrapper {
-    
-}*/
+#navbar {
+    text-align: center;
+}
+
+.row {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+
+.nav-wrapper {
+    background-color: #284F63;
+    height: 200px;
+    padding-left: 35%;
+    font-weight: bolder;
+    font-size: 4rem;
+}
+
+nav .nav-wrapper {
+    position: relative;
+    height: 200px;
+    text-align: center;
+}
+
+.nav-buttons {
+    cursor: pointer;
+    color: white;
+    overflow: hidden;
+    font-size: 25px;
+}
 
 
 /*Homepage*/
