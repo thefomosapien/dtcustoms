@@ -9,7 +9,7 @@ angular.module('app').config(function ($stateProvider, $urlRouterProvider) {
             .state('contact', {
                 url: '/contact',
                 templateUrl: 'contact/contact.html',
-                // controller: 'contactCtrl',
+                controller: 'contactCtrl',
                 // controllerAs: 'vmContact'
                 parent: 'navbar'
             })

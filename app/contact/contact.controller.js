@@ -7,12 +7,14 @@ angular.module('app').controller('contactCtrl', function ($scope, $firebaseArray
     $scope.forms = $firebaseArray(formRef);
 
     $scope.addForm = function (formObj) {
-        $scope.toppings.$add({
+        $scope.forms.$add({
             name: formObj.name,
-            phone: formObj.description,
+            phone: formObj.phone,
             email: formObj.email,
             business: formObj.business,
             message: formObj.message
-            
-        })
+
+        });
+        console.log($scope.forms)
     }
+});

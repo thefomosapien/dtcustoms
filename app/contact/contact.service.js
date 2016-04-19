@@ -1,4 +1,4 @@
-angular.module('app').service('adminService', function ($firebaseArray) {
+angular.module('app').service('contactService', function ($firebaseArray) {
 
     //Creating a new Firebase database and it's URL//
     var baseUrl = "https://dtcustoms.firebaseio.com"
@@ -7,3 +7,4 @@ angular.module('app').service('adminService', function ($firebaseArray) {
         var formInstance = new Firebase(baseUrl + "/messages");
         return formInstance;
     }
+});
