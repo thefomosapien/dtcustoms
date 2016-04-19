@@ -58,6 +58,9 @@ nav .nav-wrapper {
     flex: 1 0 auto;
   }
 
+footer.page-footer {
+    background-color: black;
+}
 
 /*Homepage*/
 
