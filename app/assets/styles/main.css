@@ -101,3 +101,8 @@ i.icon-black {
 .icon-text {
     font-weight: bold;
 }
+
+#contact-title {
+    color: white;
+    padding-top: 50px;
+}
