@@ -182,7 +182,7 @@ i.icon-black {
 /* label underline focus color */
 
 .input-field input[type=text]:focus {
-    border-bottom: 1px solid #284F63;
+    border-bottom: 1px solid #000;
     box-shadow: 0 1px 0 0 #000;
 }
 
@@ -224,4 +224,12 @@ i.icon-black {
 #submit-button {
     padding-bottom: 20px;
     padding-left: 20px;
+}
+
+/*Auth*/
+.login-box {
+    width: 20%;
+    height: 350px;
+    background-color: #21A643;
+    
 }
