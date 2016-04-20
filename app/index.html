@@ -7,15 +7,15 @@
 
     <!--CSS-->
     <link rel="stylesheet" href="assets/styles/main.css">
-    
+
     <!--Firebase-->
     <script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
 
     <!--Materialize-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    
-    <!--Fonts & Icons-->    
+
+    <!--Fonts & Icons-->
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Yellowtail" />
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
 
@@ -26,8 +26,11 @@
 
 <body>
 
+    <navbar-dir></navbar-dir>
 
     <ui-view></ui-view>
+
+    <div ng-include src="'navbar/footer.html'"></div>
 
 
     <!--Angular-->
@@ -52,21 +55,24 @@
     <!--Controllers-->
     <script src="homepage/homepage.controller.js"></script>
     <script src="contact/contact.controller.js"></script>
+    <script src="auth/auth.controller.js"></script>
     <script src="admin/admin.controller.js"></script>
-    <script src="whatwedo\whatwedo.controller.js"></script>
-    
-    
+    <script src="whatwedo/whatwedo.controller.js"></script>
+    <script src="navbar/navbar.controller.js"></script>
+
+
+
     <!--<script src="app/whatwedo/whatwedo.controller.js"></script>-->
     <!--<script src="app/whoweare/whoweare.controller.js"></script>-->
 
     <!--Directives-->
-    <!--<script src="app/components/directives/contacttab.directive.js"></script>-->
+    <script src="navbar\navbar.directive.js"></script>
 
     <!--Services-->
     <script src="homepage/homepage.service.js"></script>
     <script src="contact/contact.service.js"></script>
     <!--<script src="admin/admin.service.js"></script>-->
-    <script src="whatwedo/whatwedo.service.js"></script>
+    <!--<script src="whatwedo/whatwedo.service.js"></script>-->
     <!--<script src="app/whoweare/whoweare.service.js"></script>-->
 
 

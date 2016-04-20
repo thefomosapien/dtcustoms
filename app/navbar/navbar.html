@@ -1,8 +1,8 @@
 <div id="header-container">
 
+<img id="logo" src="assets\images\DT4.png">
     <div class="navbar-container">
-        <img id="logo" src="assets\images\DT4.png">
-        <div class="row">
+        <div class="row" ng-class="{navbarFix: applyClass}">
             <div class="col s3 navbar-link"><a class="waves-effect waves-green btn-flat " ui-sref="homepage">Home</a></div>
             <div class="col s3 navbar-link"><a class="waves-effect waves-green btn-flat" ui-sref="whatwedo">What We Do</a></div>
             <div class="col s3 navbar-link"><a class="waves-effect waves-green btn-flat" ui-sref="whoweare">Who We Are</a></div>
@@ -11,32 +11,3 @@
     </div>
 
 </div>
-
-
-<ui-view></ui-view>
-
-
-<footer class="page-footer">
-    <div class="container">
-        <div class="row">
-            <div class="col l6 s12">
-                <h5 class="white-text">DT CUSTOMS</h5>
-                <p class="grey-text text-lighten-4">Website designed and built by @thefomosapien</p>
-            </div>
-            <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">ADD US</h5>
-                <ul>
-                    <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/DT-Customs-867041030011569/">FACEBOOK</a></li>
-                    <li><a class="grey-text text-lighten-3" href="https://twitter.com/">TWITTER</a></li>
-                    <li><a class="grey-text text-lighten-3" href="https://www.instagram.com/">INSTAGRAM</a></li>
-                    <li><a class="grey-text text-lighten-3" href="https://plus.google.com/">GOOGLE+</a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="footer-copyright">
-        <div class="container">
-            © 2014 Copyright Text
-        </div>
-    </div>
-</footer>
