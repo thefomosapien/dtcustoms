@@ -36,10 +36,13 @@ nav .nav-wrapper {
     text-align: center;
 }
 
+.waves-effect {
+    margin-bottom: 10px;
+}
+
 .navbar-link .waves-effect {
     color: white;
     font-size: 25px;
-    padding-bottom: 3rem;
 }
 
 .navbar-container .row {
