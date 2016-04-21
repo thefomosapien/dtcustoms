@@ -59,23 +59,19 @@ main {
     flex: 1 0 auto;
 }
 
-/*Footer*/
-.page-footer .container .footer-dude .row {
-    background-color: #AF3F00;
-}
 
+/*Footer*/
 .ng-scope .page-footer {
     background-color: #AF3F00;
+    margin-top: 0;
 }
-
-
 
 .navbarFix {
     position: fixed;
     top: 0;
     width: 100%;
     left: 0;
-    background-color: rgba(40,79,99,0.5);
+    background-color: rgba(40, 79, 99, 0.5);
     padding-top: 10px;
     z-index: 99;
 }
@@ -236,7 +232,9 @@ i.icon-black {
     padding-left: 20px;
 }
 
+
 /*Auth*/
+
 .login-box {
     width: 300px;
     height: 350px;
@@ -253,4 +251,41 @@ i.icon-black {
 
 .login-button {
     background-color: black;
+}
+
+
+/*Admin*/
+
+.logout-button {
+    float: right;
+    padding-right: 25px;
+    
+    /*position: relative;*/
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn, .btn-large {
+    text-decoration: none;
+    color: #fff;
+    background-color: blue;
+    text-align: center;
+    letter-spacing: .5px;
+    transition: .2s ease-out;
+    cursor: pointer;
+}
+
+
+/*What we do*/
+.tint-view {
+    display: flex;
+    justify-content: center;
+}
+
+.material-boxed {
+    padding-right: 20px;
 }
