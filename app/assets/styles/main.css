@@ -59,13 +59,6 @@ main {
     flex: 1 0 auto;
 }
 
-
-/*Footer*/
-.ng-scope .page-footer {
-    background-color: #AF3F00;
-    margin-top: 0;
-}
-
 .navbarFix {
     position: fixed;
     top: 0;
@@ -77,17 +70,14 @@ main {
 }
 
 
+/*Footer*/
+.ng-scope .page-footer {
+    background-color: #AF3F00;
+    margin-top: 0;
+}
+
+
 /*Homepage*/
-
-
-/*.parallax {
-    width: 100%;
-    height: 600px;
-    position: absolute;
-    z-index: 1;
-    
-}*/
-
 #whoarewe-block {
     width: 100%;
     height: 500px;
@@ -170,62 +160,16 @@ i.icon-black {
 
 /*Contact Form*/
 
+/*.contact-header .h1 {
+    position: ;
+}*/
 
-/* label color */
-
-.input-field label {
-    color: #000;
+.social {
+    position: relative;
+    float: right;
 }
 
 
-/* label focus color */
-
-.input-field input[type=text]:focus + label {
-    color: #000;
-}
-
-
-/* label underline focus color */
-
-.input-field input[type=text]:focus {
-    border-bottom: 1px solid #000;
-    box-shadow: 0 1px 0 0 #000;
-}
-
-
-/* valid color */
-
-.input-field input[type=text].valid {
-    border-bottom: 1px solid #000;
-    box-shadow: 0 1px 0 0 #000;
-}
-
-
-/* invalid color */
-
-.input-field input[type=text].invalid {
-    border-bottom: 1px solid #000;
-    box-shadow: 0 1px 0 0 #000;
-}
-
-
-/* icon prefix focus color */
-
-.input-field .prefix.active {
-    color: #000;
-}
-
-.row .col.s6 {
-    width: 50%;
-    margin-left: auto;
-    left: auto;
-    right: auto;
-    color: black;
-}
-
-.row .col.s12 {
-    color: black;
-}
 
 #submit-button {
     padding-bottom: 20px;
