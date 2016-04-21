@@ -5,7 +5,7 @@ angular.module('app').directive('navbarDir', function ($window) {
         templateUrl: 'navbar/navbar.html',
         link: function (scope, element, attrs) {
                     angular.element($window).bind("scroll", function() {
-             if (this.pageYOffset >= 319) {
+             if (this.pageYOffset >= 313) {
                  scope.applyClass = true;
              } else {
                  scope.applyClass = false;
