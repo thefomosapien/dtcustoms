@@ -30,6 +30,7 @@ angular.module('app').config(function ($stateProvider, $urlRouterProvider) {
                 url: '/auth',
                 templateUrl: 'auth/auth.html',
                 controller: 'authCtrl'
+                
             })
             
             .state('admin', {
