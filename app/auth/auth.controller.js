@@ -1,20 +1,25 @@
-angular.module("app").controller('authCtrl', function ($scope, $state) {
+angular.module("app").controller('authCtrl', function ($scope, $state, $q) {
 
 
     var ref = 'https://dtcustoms.firebaseio.com/';
     var auth = new Firebase(ref);
 
     $scope.login = function() {
+        var deferred = $q.defer();
         auth.authWithPassword({
             email: $scope.username,
             password: $scope.password
         }, function(error, user) {
             if(error) {
-                console.log(error);
+                deferred.reject(error);
             } else {
-                $state.go('admin')
+                deferred.resolve(user)
             }
-        })
+        });
+        deferred.promise.then(function(dude) {
+            console.log('23')
+            $state.go('admin');
+        });
     }
 
 
