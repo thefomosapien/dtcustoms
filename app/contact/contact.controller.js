@@ -7,7 +7,7 @@ angular.module('app').controller('contactCtrl', function ($scope, $firebaseArray
     $scope.forms = $firebaseArray(formRef);
 
     $scope.addForm = function (formObj) {
-        $scope.forms.$add({
+        $scope.forms.$add(formObj); ({
             name: formObj.name,
             phone: formObj.phone,
             email: formObj.email,
