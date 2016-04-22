@@ -71,6 +71,7 @@ main {
 
 
 /*Footer*/
+
 .ng-scope .page-footer {
     background-color: #AF3F00;
     margin-top: 0;
@@ -78,6 +79,7 @@ main {
 
 
 /*Homepage*/
+
 #whoarewe-block {
     width: 100%;
     height: 500px;
@@ -157,22 +159,37 @@ i.icon-black {
     padding-top: 50px;
 }
 
+.contact-block {
+    width: 100%;
+    height: 500px;
+    background-color: #284F63;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 1px;
+}
+
+
+}
 
 /*Contact Form*/
 .social {
     position: relative;
     float: right;
 }
-
 .contact-title {
     position: absolute;
 }
-
 #submit-button {
     padding-bottom: 20px;
     padding-left: 20px;
 }
-
+.btn {
+    background-color: #F9651F;
+}
+.modal {
+    text-align: center;
+    width: 20%;
+}
 
 /*Auth*/
 .login-box {
@@ -184,32 +201,25 @@ i.icon-black {
     margin-bottom: 5%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 .login-form {
     padding-top: 20px;
 }
-
 .login-button {
     background-color: black;
 }
 
-
 /*Admin*/
-
 .logout-button {
     float: right;
     padding-right: 25px;
-    
-    /*position: relative;*/
 }
-
 .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
-.btn, .btn-large {
+.btn,
+.btn-large {
     text-decoration: none;
     color: #fff;
     background-color: blue;
@@ -219,13 +229,11 @@ i.icon-black {
     cursor: pointer;
 }
 
-
 /*What we do*/
 .tint-view {
     display: flex;
     justify-content: center;
 }
-
 .material-boxed {
     padding-right: 20px;
 }
