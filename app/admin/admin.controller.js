@@ -11,7 +11,7 @@ angular.module('app').controller('adminCtrl', function ($scope, $firebaseArray, 
     var deleteRef = new Firebase('https://dtcustoms.firebaseio.com/messages');
 
     deleteRef.remove();
-    // All data at the database location for user 'fred' has been deleted
+    // All data at the database location has been deleted
     // (including any child data)
 
     };
